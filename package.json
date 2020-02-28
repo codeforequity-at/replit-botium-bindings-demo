@@ -1,0 +1,21 @@
+{
+  "name": "BotiumBindingsDemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec"
+  },
+  "dependencies": {
+    "botium-bindings": "latest",
+    "botium-connector-echo": "latest",
+    "mocha": "latest"
+  },
+  "botium": {
+    "convodirs": [
+      "spec/convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false,
+    "expandScriptingMemoryToConvos": false
+  }
+}
