@@ -2,23 +2,12 @@
   "botium": {
     "Capabilities": {
       "PROJECTNAME": "BotiumBindingsDemo",
+      "SCRIPTING_ENABLE_MEMORY": true,
       "CONTAINERMODE": "echo",
       "ECHO_ANSWERS": [
         {
-          "input": "extra 1",
-          "output": "extra answer 1"
-        },
-        {
-          "input": "extra 2",
-          "output": {
-            "messageText": "extra answer 2 (with nlp)",
-            "nlp": {
-              "intent": {
-                "name": "extra2",
-                "confidence": 0.8
-              }
-            }
-          }
+          "input": ["Show me", "What", "Find"],
+          "output": "In XYZ, there are 7 active listings"
         }
       ]
     }

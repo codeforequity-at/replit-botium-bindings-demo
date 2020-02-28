@@ -16,6 +16,6 @@
     ],
     "expandConvos": true,
     "expandUtterancesToConvos": false,
-    "expandScriptingMemoryToConvos": false
+    "expandScriptingMemoryToConvos": true
   }
 }
