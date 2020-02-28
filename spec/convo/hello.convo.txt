@@ -1,0 +1,7 @@
+hello
+
+#me
+hello
+
+#bot
+Hello my name is John, how can help you?
