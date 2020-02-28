@@ -1,0 +1,7 @@
+asserter
+
+#me
+hello
+
+#bot
+TEXT_CONTAINS_ALL_IC hello|my name is john
