@@ -5,20 +5,12 @@
       "CONTAINERMODE": "echo",
       "ECHO_ANSWERS": [
         {
-          "input": "extra 1",
-          "output": "extra answer 1"
+          "input": "What is PGI",
+          "output": "The total amount of dollars from a transaction (what the client pays)."
         },
         {
-          "input": "extra 2",
-          "output": {
-            "messageText": "extra answer 2 (with nlp)",
-            "nlp": {
-              "intent": {
-                "name": "extra2",
-                "confidence": 0.8
-              }
-            }
-          }
+          "input": "what is company profit",
+          "output": "The portion of the agent's split that is paid to the company until the agent reaches their yearly cap. The center uses the company profit to pay its bills."
         }
       ]
     }

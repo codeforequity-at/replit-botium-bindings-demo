@@ -1,0 +1,7 @@
+Glossaries Company Profit
+
+#me 
+what is company profit
+
+#bot
+The portion of the agent's split that is paid to the company until the agent reaches their yearly cap. The center uses the company profit to pay its bills.

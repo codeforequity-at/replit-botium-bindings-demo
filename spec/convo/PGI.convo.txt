@@ -1,0 +1,7 @@
+PGI
+
+#me
+What is PGI
+
+#bot
+The total amount of dollars from a transaction (what the client pays).
