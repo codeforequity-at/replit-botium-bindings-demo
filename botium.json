@@ -1,24 +1,24 @@
 {
   "botium": {
     "Capabilities": {
-      "PROJECTNAME": "BotiumBindingsDemo",
+      "PROJECTNAME": "BotiumDemo",
       "CONTAINERMODE": "echo",
       "ECHO_ANSWERS": [
         {
-          "input": "extra 1",
-          "output": "extra answer 1"
+          "input": "order number 1",
+          "output": "here are the details for order number 1"
         },
         {
-          "input": "extra 2",
-          "output": {
-            "messageText": "extra answer 2 (with nlp)",
-            "nlp": {
-              "intent": {
-                "name": "extra2",
-                "confidence": 0.8
-              }
-            }
-          }
+          "input": "thank you",
+          "output": "you are welcome"
+        },
+        {
+          "input": "order number 2",
+          "output": "order number 2 not found"
+        },
+        {
+          "input": "thanks for nothing",
+          "output": "you are welcome"
         }
       ]
     }
