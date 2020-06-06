@@ -1,0 +1,4 @@
+       |$products_containCFC
+ utt1  |hydro sense shave cream 
+ utt2  |Skintimate 2-in-1 Shave Cream & Conditioner      
+ 

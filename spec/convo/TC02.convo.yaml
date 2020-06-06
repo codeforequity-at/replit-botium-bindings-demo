@@ -1,0 +1,11 @@
+convos:
+  - name: TC02_ContainCFC
+    steps:
+      - me:
+          - UTT_ABOUT_ContainCFC
+      - bot:
+          - You said
+utterances:
+  UTT_ABOUT_ContainCFC:
+    - are the any cfc's in this product?
+    - do your $products_containCFC contain cfcs

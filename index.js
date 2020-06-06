@@ -1,3 +1,4 @@
+process.env.DEBUG= 'botium*'
 const Mocha = require('mocha')
 
 const mocha = new Mocha()
