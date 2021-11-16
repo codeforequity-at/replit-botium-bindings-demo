@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec"
+    "test": "jest spec"
   },
   "dependencies": {
     "botium-bindings": "latest",
     "botium-connector-echo": "latest",
-    "mocha": "latest"
+    "jest": "latest"
   },
   "botium": {
     "convodirs": [
