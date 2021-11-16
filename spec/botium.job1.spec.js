@@ -1,2 +1,0 @@
-const BotiumBindings = require('botium-bindings')
-BotiumBindings.helper.jest().setupJestTestSuite({ bb: new BotiumBindings({ convodirs: ['spec/convos-job1'] }) })
