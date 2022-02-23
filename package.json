@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec",
-    "cli": "botium-cli run --convos spec/convo"
+    "start": "botium-cli run --convos spec/convo"
   },
   "dependencies": {
     "botium-bindings": "latest",
