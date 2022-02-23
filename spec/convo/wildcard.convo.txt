@@ -1,0 +1,6 @@
+wildcard
+
+#me
+MEDIA audiofiles/*.wav
+
+#bot
