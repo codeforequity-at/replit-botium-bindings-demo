@@ -1,22 +1,12 @@
 {
-  "name": "BotiumBindingsDemo",
+  "name": "BotiumMediaWildcardDemo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "botium-cli run --convos spec/convo"
   },
   "dependencies": {
-    "botium-bindings": "latest",
     "botium-cli": "latest",
-    "botium-connector-echo": "latest",
-    "mocha": "latest"
-  },
-  "botium": {
-    "convodirs": [
-      "spec/convo"
-    ],
-    "expandConvos": true,
-    "expandUtterancesToConvos": false,
-    "expandScriptingMemoryToConvos": false
+    "botium-connector-echo": "latest"
   }
 }
